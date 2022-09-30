@@ -1,0 +1,13 @@
+22-09-23, 185, 50, 14, 24.09
+22-09-23, 185, 50, 14, 24.09
+Current date: 2022-09-23, width: 185.0, aspect ratio: 50.0,diameter: 14.0, volume: 24.09
+22-09-23, 185, 50, 14, 24.09
+Current date: 2022-09-23, 185, 50, 14, 24.09
+Current date: 2022-09-23, width: 185.0, aspect ratio: 50.0,diameter: 14.0, volume: 24.09
+Current date: 2022-09-23, 185, 50, 14, 24.09
+Current date: 2022-09-23, 185, 50, 14, 24.09
+2022-09-23, 185, 50, 14, 24.09
+2022-09-23, 185, 50, 14, 24.09
+2022-09-23, 185, 50, 14, 24.09
+2022-09-23, Wheel width: 185mm, wheel ratio: 50, wheel diameter: 14inches, wheel volume: 24.09, window length: 60, window area: 3600 car length: 14, car width: 5, car area: 70
+2022-09-23, Wheel width: 185, wheel ratio: 50, wheel diameter: 14, wheel volume: 24.09, window length: 60, window area: 3600, car length: 14, car width: 5, car area: 70
