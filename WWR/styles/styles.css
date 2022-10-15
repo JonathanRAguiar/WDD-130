@@ -1,3 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Rock+Salt&display=swap');
+.book{
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 18px
+}
+.card-img{
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
+.join{
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 18px
+}
+.msg p{
+    font-family: "Raleway";
+    font-size: .8em
+}
+#logo_link{
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding-top: 5px;
+}
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+}
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -6,7 +52,10 @@
     text-align: center;
 }
 nav a{
+    text-decoration: none;
+    color: #fcfbfb;
     text-align: center;
+    padding: 10px 20px;
 }
 #hero-msg h1{
     text-align: center;
@@ -24,15 +73,17 @@ section{
     height: 725px;
 }
 body{
+    font-family: "Raleway";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
     background-color: #fcfbfb; 
 }
 header{
     background-color:rgba(20,30,13, .7);
 }
-nav a:hover{
-    background-color: black;
-}
 .book{
+    
     background-color: aquamarine;
 }
 .join{
@@ -48,20 +99,34 @@ nav a:hover{
     background-color: coral;
 }
 .msg{
+    padding: 35px;
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    line-height: 1.5em;
     background-color: gray;
 }
 footer{
+    padding: 25px 50px;
+    margin-top: 200px;
     background-color: gray;
 }
 nav a{
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
     background-color: black;
     color: #d9c2a3;
+    padding: 5px
 }    
 nav a:hover{
     background-color: black;
     color: #d9c2a3;
 }    
 .home-title{
+    margin-top: 10px;
+    font-family: "Rock Salt";
+    font-size: 2em;
     background-color: white;
     color: black;
 }    
@@ -69,35 +134,31 @@ h4{
     background-color: white;
     color:black
 }
-.book {
-    background-color: gray;
-}
-.join{
-    background-color: aquamarine;
-}
-.book:hover{ 
-    background-color: aquamarine;
-}
-.join:hover{
-    background-color: aquamarine;
-}
 .msg h2{
     background-color: gray;
     color:#fcfbfb
 }
 .msg p{
+    padding-bottom: 15px;
+    text-decoration: none;
+    font-family: "Raleway";
     background-color: gray;
     color:#fcfbfb
 }
 footer{
+    padding: 25px 50px;
+    text-decoration: none;
+    text-align: center;
     background-color: gray;
     color:#fcfbfb
 }
 footer a{
+    padding-top: 15px;
     background-color: gray;
     color:#fcfbfb
 }
 footer a:hover{
+    padding-top: 15px;
     background-color: gray;
     color:#fcfbfb
 }
@@ -105,29 +166,19 @@ footer a:hover{
     width: 80px;
 }
 .icon {
+    padding-top: 10px;
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
     width: 80px;
 }
 
 #hero-img{
     width: 100%
 }
-nav a {
-    text-align: center;
-    color: #fcfbfb;
-    text-decoration: none;
-}
-.book {
-    text-align: center;
-    color: #fcfbfb;
-    text-decoration: none;
-}
-.join {
-    text-align: center;
-    color: #fcfbfb;
-    text-decoration: none;
-}
 footer a {
-    text-align: center;
+    padding-top: 15px;
+    text-decoration: none;
     color: #fcfbfb;
     text-decoration: none;
 }
@@ -136,4 +187,7 @@ footer p {
 } 
 footer p a:hover {
     text-decoration: underline;
+}
+h2{
+    margin: 0;
 }
