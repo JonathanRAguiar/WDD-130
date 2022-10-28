@@ -71,6 +71,8 @@ nav {
     transform: scale(1.1);
 }
 .home-grid{
+    grid-template-columns: repeat(10, 1);
+    grid-column-gap: 120px;
     display: grid
 }
 main section img {
