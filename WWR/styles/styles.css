@@ -1,16 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Rock+Salt&display=swap');
 @media screen and (max-width: 900px) {
-    #hero{
+    #hero, .home-grid {
         display: block;
         height: auto;
     }
-    .home-grid {
-        display: block;
-        height: auto;
-    }
-    nav{
-        flex-direction: column;
-    } footer {
+    nav, footer {
         flex-direction: column;
     }
     nav a {
@@ -30,28 +24,14 @@
         font-size: 25px;
         color: #6f7364;
     }
-    .rapids-card{ 
-        margin: 50px auto;
-        width: 60%;
-    }
-    .camping-card{ 
-        margin: 50px auto;
-        width: 60%;
-    }
-    .rivers-card{ 
+    .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
         width: 60%;
     }
     #background {
         display: none;
     }
-    .mountains{
-        width: 80%;
-        display: block;
-        margin: 0 auto;
-    }
-    }
-    .msg {
+    .mountains, .msg {
         width: 80%;
         display: block;
         margin: 0 auto;
@@ -59,6 +39,7 @@
     footer {
         margin-top: 25px;
     }
+}
 
 .book{
     border-radius: 5px;
@@ -200,13 +181,13 @@ header{
     background-color: #d9c2a3;
 }
 .book:hover{
-    background-color: aquamarine;
+    background-color: #d9c2a3;
 }
 .join:hover{
-    background-color: aquamarine;
+    background-color: #d9c2a3;
 }
 #background{
-    background-color: coral;
+    background-color: #d9c2a3;
 }
 .msg{
     grid-column: 6/10;
