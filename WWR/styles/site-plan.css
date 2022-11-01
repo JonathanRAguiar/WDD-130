@@ -1,26 +1,19 @@
 
-/* if you are using any Google fonts change the font names below to your fonts. 
-Any spaces in your font name should be replaced with a +. 
-Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Playfair+Display&display=swap');
-
 :root {
-  /* change the values below to your colors from your palette */
   --primary-color: #0d1b2a   ;
   --secondary-color: #1b263b ;
   --accent1-color: #415a77;
   --accent2-color: #778da9;
   --accent3-color: #e0e1dd;
 
-  /* change the values below to your chosen font(s) */
   --heading-font: "Playfair display";
   --paragraph-font: "Oswald";
 
-  /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #0d1b2a;  /* headlines on a white background */ 
-  --headline-color-on-color: #e0e1dd; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #1b263b; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #e0e1dd; /* paragraph text on a colored background */ 
+  --headline-color-on-white: #0d1b2a;  
+  --headline-color-on-color: #e0e1dd; 
+  --paragraph-color-on-white: #1b263b; 
+  --paragraph-color-on-color: #e0e1dd; 
   --paragraph-background-color: #415a77  ;
   --nav-link-color: #0d1b2a;
   --nav-background-color: #778da9;
@@ -29,7 +22,6 @@ Fonts are separated by a & */
 }
 
 
-/*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
   max-width: 960px;
