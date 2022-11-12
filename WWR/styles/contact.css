@@ -21,7 +21,10 @@
   --nav-hover-background-color: #1b263b;
 }
 
-
+.image_portfolio{
+  max-width: 300px;
+  width: 300px;
+}
 
 body {
   max-width: 960px;
