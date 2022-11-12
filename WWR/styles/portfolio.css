@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Playfair+Display&display=swap');
+
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #1b263b;
+    font-size: 2em;
+    font-family: "Oswald";
+}
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+    text-decoration: none;
+    color: #e0e1dd;
+    text-align: center;
+    padding-top: 5px;
+}
+.my_logo{
+    width: 80px;
+}
+.home-title{
+    margin-top: 10px;
+    font-family: "Playfair display";
+    font-size: 2em;
+    color: #778da9;
+}
+body{
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e1dd; 
+}
+.overview{
+    margin-top: 20px;
+    color: #1b263b;
+    font-family: "Oswald";
+
+}
+.purpose{
+    margin-top: 30px;
+    color: #1b263b;
+    font-family: "Oswald";
+}
+.image-me{
+    margin: 0 auto;
+    max-width: 300px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 200px; 
+    padding: 25px 50px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #1b263b;
+    color:#e0e1dd
+}
