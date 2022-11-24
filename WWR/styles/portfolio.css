@@ -24,6 +24,8 @@ header{
     font-family: "Playfair display";
     font-size: 2em;
     color: #778da9;
+    text-align: center;
+
 }
 body{
     align-items: center;
@@ -35,20 +37,29 @@ body{
     margin-top: 20px;
     color: #1b263b;
     font-family: "Oswald";
+    text-align: center;
+
 
 }
 .purpose{
     margin-top: 30px;
     color: #1b263b;
     font-family: "Oswald";
+    text-align: center;
+
 }
 .audience{
     color: #1b263b;
     font-family: "Oswald";
+    text-align: center;
+
 }
 .image-me{
+    display: block;
     margin: 0 auto;
     max-width: 300px;
+    align-items: center;
+
 }
 footer{
     display: flex;
