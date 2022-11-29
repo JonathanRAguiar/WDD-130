@@ -23,14 +23,62 @@
         </header>
     </div>
         <h1 class="home-title">Jonathan Ricardo's Portfolio</h1>
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Click to get some info about me</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>A bit about me</h2>
+    </div>
+    <div class="modal-body">
+      <p>Talking a little bit about myself, in my personality and profile I am constantly developing my 
+        front end and backend skills. with a dream to be a software engineer. creative and proactive, 
+        ready for new challenges. As children we are asked what we want to be when we grow up, most of 
+        the answers are “traditional” professions like doctors, police officers, firefighters, dancers 
+        and astronauts. However, the professional market is much broader and as I grew up I found new 
+        job possibilities, I changed my tastes, habits and preference for work. I was a teenager fascinated
+        by computers and I discovered that I wanted to work in front of one, where I was an administrative 
+        assistant for a while, until I discovered the area of Information Technology. I started to build 
+        simple and complex systems through programming languages by myself watching videos and researching 
+        materials on the internet. In addition, I started to carry out the tests to verify that everything 
+        is working correctly.</p>
+      <p>And this is a bit about me...</p>
+    </div>
+    <div class="modal-footer">
+      <h3>Thanks for reading!</h3>
+    </div>
+  </div>
+
+</div>
+
+<script>
+    var modal = document.getElementById("myModal");
+    
+    var btn = document.getElementById("myBtn");
+    
+    var span = document.getElementsByClassName("close")[0];
+    
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }</script>
         <p class="overview">My focus is to create complex actions from both frontend and backend. </p>
         <h2 class="purpose">The purpose of this site is to show my portifolio and a little bit about myself, 
-            my projects, my ambitions and my experiencies as developer. I was a teenager fascinated
-            by computers and I discovered that I wanted to work in front of one, where I was an administrative 
-            assistant for a while, until I discovered the area of Information Technology. I started to build 
-            simple and complex systems through programming languages by myself watching videos and researching 
-            materials on the internet. In addition, I started to carry out the tests to verify that everything 
-            is working correctly.
+            my projects, my ambitions and my experiencies as developer. 
         </h2>
         <img class="image-me" src="images/image-me.jpeg" alt="me">
         <h4 class="audience">My audience is to network with companys and clients interested in my work</h4>
