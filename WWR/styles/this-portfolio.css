@@ -49,72 +49,90 @@ hr {
   background: var(--accent1-color);
 }
 header {
-  padding: 1em;
+  display: grid;
+  grid-template-columns: 150px auto;
+  background-color: #1b263b;
+  font-size: 2em;
+  font-family: "Oswald";    
+}
+#logo_link{
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+  text-decoration: none;
+  color: #e0e1dd;
   text-align: center;
-  color: var(--paragraph-color-on-color);
-  background-color: var(--paragraph-background-color);
+  padding-top: 5px;
 }
-header > h1, header > h2 {
-  color: var(--headline-color-on-color);
+.home-title{
+  margin-top: 10px;
+  font-family: "Playfair display";
+  font-size: 2em;
+  color: #778da9;
+  text-align: center;
+
 }
-p {
+.my_logo{
+  width: 80px;
+}
+/*p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color);
   padding: 1em;
 }
-.colors {
+/*.colors {
   width: 100%;
   min-width: 350px;
   margin: 30px auto;
   text-align: center;
 }
-.colors th {
+/*.colors th {
   background-color: #999;
 }
-.colors td{
+/*.colors td{
   width: 25%;
   height: 3em;
 }
-.primary {
+/*.primary {
   background-color: var(--primary-color);
 }
-.secondary {
+/*.secondary {
   background-color: var(--secondary-color);
 }
-.accent1 {
+/*.accent1 {
   background-color: var(--accent1-color);
 }
-.accent2{
+/*.accent2{
   background-color: var(--accent2-color);
 }
-p.colored {
+/*p.colored {
   background-color: var(--paragraph-background-color);
   color: var(--paragraph-color-on-color);
 }
-nav {
+/*nav {
   background-color: var(--nav-background-color);
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
 }
-nav  {
+/*nav  {
   list-style-type: none;
   display: flex;
 }
-nav a {
+/*nav a {
   padding:1em;
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
 }
-nav a:link, nav a:visited {
+/*nav a:link, nav a:visited {
   color: var(--nav-link-color);
 }
-nav a:hover {
+/*nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
-.sitemap {
+/*.sitemap {
   display: grid;
   justify-content: center;
 
@@ -125,29 +143,29 @@ nav a:hover {
     ". left left right right ."
     "page2 page2 . . page3 page3";
 }
-.sitemap > div {
+/*.sitemap > div {
   text-align: center;
 }
-.sm-home {
+/*.sm-home {
   grid-area: home;
   background-color: #ccc;
   line-height: 3em;
 }
-.sm-page2 {
+/*.sm-page2 {
   grid-area: page2;
   background-color: #ccc;
   line-height: 3em;
 }
-.sm-page3 {
+/*.sm-page3 {
   grid-area: page3;
   background-color: #ccc;
   line-height: 3em;
 }
-.top {
+/*.top {
   grid-area: top;
   border-left: 1px solid;
 }
-.left {
+/*.left {
   grid-area: left;
   border-top: 1px solid;
   border-left: 1px solid;
@@ -156,7 +174,7 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
-}
+}*/
 footer{
   display: flex;
   align-items: center;
